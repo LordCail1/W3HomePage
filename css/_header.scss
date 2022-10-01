@@ -1,17 +1,19 @@
 /********************Class Selectors********************/
 .three-pack-logo {
-    margin-left: auto;
+    align-items: center;
     align-self: stretch;
     display: flex;
-    align-items: center;
+    margin-left: auto;
 }
 
 
 .main-page-navbar {
-    display: flex;
     align-items: center;
-    padding: 0 20px;
     background-color: rgb(29,42,53);
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+
     span {
         margin-right: 5px;
     }
@@ -39,18 +41,15 @@
     font-weight: $thickWeight;
     height: 75px;
     padding: 0 20px;
-
     &:hover {
         background-color: rgb(4, 170, 109);
     }
-    
 }
 
 .logo-anchor {
     color: $btnGreen;
     font-size: 2.5rem;
     padding-right: 15px;
-
     &:hover {
         color: $btnHoverGreen;
     }
@@ -59,7 +58,7 @@
 
 .username-icon {
     font-size: 1.875rem;
-    margin-left: 100px;
+    margin-left: 5%;
     &:hover {
         color: $btnHoverGreen;
     }
@@ -88,5 +87,17 @@
     color: $black;
     &:hover {
         background-color: $btnHoverYellow;
+    }
+}
+
+@media screen and (max-width: $extra-largeScreen-max-width) {
+    .three-pack-logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: $largeScreen-max-width:) {
+    .three-pack-logo {
+
     }
 }

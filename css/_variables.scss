@@ -9,6 +9,7 @@ $btnYellow: rgb(255, 244, 163);
 $btnBlack: rgb(40,42,53);
 
 /*Hover Colors*/
+$btnHoverBlack: #000;
 $btnHoverGreen: rgb(5, 152, 98);
 $btnHoverPink: rgb(255, 179, 187);
 $btnHoverYellow: rgb(255, 240, 128);
@@ -21,6 +22,10 @@ $btnPadding: 8px 16px;
 /*Fonts*/
 $thickWeight: 600;
 
+/*BreakPoint Variables*/
+$extra-largeScreen-max-width: 1200px;
+$largeScreen-max-width: 1000px;
+
 
 @mixin presentationButton($background-color, $color) {
     background-color: $background-color;
@@ -29,7 +34,7 @@ $thickWeight: 600;
 
 @mixin generalButtonShape {
     border: none;
-    width: 200px;
+    min-width: 200px;
 }
 
 
