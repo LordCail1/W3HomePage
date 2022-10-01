@@ -33,6 +33,7 @@
 .navbar-button {
     font-size: 1.125rem;
     margin: 0 5px;
+    white-space: nowrap;
 }
 
 .navbar-menu-choice {
@@ -91,8 +92,17 @@
 }
 
 @media screen and (max-width: $extra-largeScreen-max-width) {
+
+    .main-page-navbar {
+        justify-content: space-between;
+    }
+
     .three-pack-logo {
         display: none;
+    }
+
+    .username-icon {
+        
     }
 }
 
