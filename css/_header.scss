@@ -1,0 +1,92 @@
+/********************Class Selectors********************/
+.three-pack-logo {
+    margin-left: auto;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+}
+
+
+.main-page-navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-color: rgb(29,42,53);
+    span {
+        margin-right: 5px;
+    }
+}
+
+.nav-bar-icon {
+    align-items: center;
+    display: flex;
+    font-size: 1.25rem;
+    height: 100%;
+    padding: 0 10px;
+    &:hover {
+        color: $btnHoverGreen;
+    }
+}
+
+.navbar-button {
+    font-size: 1.125rem;
+    margin: 0 5px;
+}
+
+.navbar-menu-choice {
+    align-items: center;
+    display: flex;
+    font-weight: $thickWeight;
+    height: 75px;
+    padding: 0 20px;
+
+    &:hover {
+        background-color: rgb(4, 170, 109);
+    }
+    
+}
+
+.logo-anchor {
+    color: $btnGreen;
+    font-size: 2.5rem;
+    padding-right: 15px;
+
+    &:hover {
+        color: $btnHoverGreen;
+    }
+
+}
+
+.username-icon {
+    font-size: 1.875rem;
+    margin-left: 100px;
+    &:hover {
+        color: $btnHoverGreen;
+    }
+}
+
+/********************ID Selectors********************/
+
+#pro {
+    background-color: $white;
+    color: $black;
+    &:hover {
+        background-color: #616161;
+    }
+}
+
+#getCertified {
+    background-color: $btnPink;
+    color: $black;
+    &:hover {
+        background-color: $btnHoverPink;
+    }
+}
+
+#freeWebsite {
+    background-color: $btnYellow;
+    color: $black;
+    &:hover {
+        background-color: $btnHoverYellow;
+    }
+}

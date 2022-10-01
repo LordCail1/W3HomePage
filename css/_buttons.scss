@@ -1,0 +1,41 @@
+button {
+    cursor: pointer;
+}
+
+.button {
+    border-radius: 25px;
+    font-weight: $thickWeight;
+    padding: 8px 16px;
+}
+
+.green-button {
+    @include generalButtonShape;
+    @include presentationButton($btnGreen, $white);
+    border-radius: $btnRadius;
+    font-size: $btnFontsize;
+    padding: $btnPadding;
+}
+
+.yellow-button {
+    @include generalButtonShape;
+    @include presentationButton($btnHoverYellow, $black);
+    border-radius: $btnRadius;
+    font-size: $btnFontsize;
+    padding: $btnPadding;
+}
+
+.black-button {
+    @include generalButtonShape;
+    @include presentationButton($btnBlack, $white);
+    border-radius: $btnRadius;
+    font-size: $btnFontsize;
+    padding: $btnPadding;
+}
+
+.pink-button {
+    @include generalButtonShape;
+    @include presentationButton($btnPink, $black);
+    border-radius: $btnRadius;
+    font-size: $btnFontsize;
+    padding: $btnPadding;
+}

@@ -1,0 +1,229 @@
+/*Colors*/
+/*button Colors*/
+/*Hover Colors*/
+/*buttons*/
+/*Fonts*/
+body {
+  margin: 0;
+}
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button {
+  border-radius: 25px;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+.green-button {
+  border: none;
+  width: 200px;
+  background-color: rgb(4, 170, 109);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  font-size: 1.125rem;
+  padding: 8px 16px;
+}
+
+.yellow-button {
+  border: none;
+  width: 200px;
+  background-color: rgb(255, 240, 128);
+  color: black;
+  border-radius: 25px;
+  font-size: 1.125rem;
+  padding: 8px 16px;
+}
+
+.black-button {
+  border: none;
+  width: 200px;
+  background-color: rgb(40, 42, 53);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  font-size: 1.125rem;
+  padding: 8px 16px;
+}
+
+.pink-button {
+  border: none;
+  width: 200px;
+  background-color: rgb(255, 192, 199);
+  color: black;
+  border-radius: 25px;
+  font-size: 1.125rem;
+  padding: 8px 16px;
+}
+
+/********************Class Selectors********************/
+.three-pack-logo {
+  margin-left: auto;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+
+.main-page-navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: rgb(29, 42, 53);
+}
+.main-page-navbar span {
+  margin-right: 5px;
+}
+
+.nav-bar-icon {
+  align-items: center;
+  display: flex;
+  font-size: 1.25rem;
+  height: 100%;
+  padding: 0 10px;
+}
+.nav-bar-icon:hover {
+  color: rgb(5, 152, 98);
+}
+
+.navbar-button {
+  font-size: 1.125rem;
+  margin: 0 5px;
+}
+
+.navbar-menu-choice {
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  height: 75px;
+  padding: 0 20px;
+}
+.navbar-menu-choice:hover {
+  background-color: rgb(4, 170, 109);
+}
+
+.logo-anchor {
+  color: rgb(4, 170, 109);
+  font-size: 2.5rem;
+  padding-right: 15px;
+}
+.logo-anchor:hover {
+  color: rgb(5, 152, 98);
+}
+
+.username-icon {
+  font-size: 1.875rem;
+  margin-left: 100px;
+}
+.username-icon:hover {
+  color: rgb(5, 152, 98);
+}
+
+/********************ID Selectors********************/
+#pro {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+#pro:hover {
+  background-color: #616161;
+}
+
+#getCertified {
+  background-color: rgb(255, 192, 199);
+  color: black;
+}
+#getCertified:hover {
+  background-color: rgb(255, 179, 187);
+}
+
+#freeWebsite {
+  background-color: rgb(255, 244, 163);
+  color: black;
+}
+#freeWebsite:hover {
+  background-color: rgb(255, 240, 128);
+}
+
+.presentation-section {
+  align-items: center;
+  background-color: rgb(13, 23, 33);
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+}
+.presentation-section h1 {
+  color: rgb(255, 255, 255);
+  font-size: 4.37rem;
+  margin-bottom: 30px;
+}
+.presentation-section a {
+  font-size: 1.437rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.presentation-section p {
+  color: rgb(255, 192, 199);
+  font-size: 1.4375rem;
+  margin-bottom: 30px;
+}
+.presentation-section input {
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: 0;
+  padding: 10px;
+  padding: 5px 0 5px 30px;
+  width: 80%;
+}
+.presentation-section form {
+  width: 35%;
+  display: flex;
+  margin-bottom: 30px;
+}
+.presentation-section form button {
+  background-color: rgb(4, 170, 109);
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  padding: 10px;
+  width: 20%;
+}
+.presentation-section form button:hover {
+  background-color: rgb(5, 152, 98);
+}
+
+.presentation-card {
+  display: flex;
+}
+.presentation-card .presentation-card-title {
+  display: flex;
+  flex-direction: column;
+}
+.presentation-card .presentation-card-example-container {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=styles.css.map */
