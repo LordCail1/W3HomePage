@@ -25,6 +25,9 @@ $thickWeight: 600;
 /*BreakPoint Variables*/
 $extra-largeScreen-max-width: 1200px;
 $largeScreen-max-width: 1000px;
+$smallScreen-max-width: 820px;
+$tablet-max-width: 480px;
+$mobile-max-width: 320px;
 
 
 @mixin presentationButton($background-color, $color) {

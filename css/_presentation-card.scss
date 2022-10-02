@@ -60,6 +60,7 @@
         p {
             font-size: 1.1rem;
             font-weight: $thickWeight;
+            white-space: nowrap;
         }
     }
 
@@ -79,4 +80,26 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: $smallScreen-max-width) {
+
+    .presentation-card {
+        flex-direction: column;
+        align-items: center;
+
+        .presentation-card-example {
+            width: 75%;
+        }
+
+       
+
+        .presentation-card-title {
+            margin-bottom: 50px;
+
+        }
+        
+    }
+
+}
+
 

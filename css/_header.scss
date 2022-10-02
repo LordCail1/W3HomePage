@@ -1,10 +1,5 @@
 /********************Class Selectors********************/
-.three-pack-logo {
-    align-items: center;
-    align-self: stretch;
-    display: flex;
-    margin-left: auto;
-}
+
 
 
 .main-page-navbar {
@@ -13,101 +8,163 @@
     display: flex;
     padding: 0 20px;
     justify-content: space-between;
-
+    
     span {
         margin-right: 5px;
     }
-}
-
-.nav-bar-icon {
-    align-items: center;
-    display: flex;
-    font-size: 1.25rem;
-    height: 100%;
-    padding: 0 10px;
-    &:hover {
-        color: $btnHoverGreen;
+    
+    .hidden-navbar-menu-choice {
+        display: none;
     }
-}
-
-.navbar-button {
-    font-size: 1.125rem;
-    margin: 0 5px;
-    white-space: nowrap;
-}
-
-.navbar-menu-choice {
-    align-items: center;
-    display: flex;
-    font-weight: $thickWeight;
-    height: 75px;
-    padding: 0 20px;
-    &:hover {
-        background-color: rgb(4, 170, 109);
+    
+    
+    .logo-anchor {
+        color: $btnGreen;
+        font-size: 2.5rem;
+        padding-right: 15px;
+        &:hover {
+            color: $btnHoverGreen;
+        }
+        
     }
-}
-
-.logo-anchor {
-    color: $btnGreen;
-    font-size: 2.5rem;
-    padding-right: 15px;
-    &:hover {
-        color: $btnHoverGreen;
+    
+    
+    .navbar-menu-choice {
+        align-items: center;
+        display: flex;
+        font-weight: $thickWeight;
+        height: 4.68rem;
+        padding: 0 20px;
+        &:hover {
+            background-color: rgb(4, 170, 109);
+        }
     }
-
-}
-
-.username-icon {
-    font-size: 1.875rem;
-    margin-left: 5%;
-    &:hover {
-        color: $btnHoverGreen;
+    
+    
+    
+    .three-pack-logo {
+        align-items: center;
+        align-self: stretch;
+        display: flex;
+        margin-left: auto;
     }
+    
+    .navbar-button {
+        font-size: 1.125rem;
+        margin: 0 5px;
+        white-space: nowrap;
+    }
+    
+    .nav-bar-icon {
+        align-items: center;
+        display: flex;
+        font-size: 1.25rem;
+        height: 100%;
+        padding: 0 10px;
+        &:hover {
+            color: $btnHoverGreen;
+        }
+    }
+    
+    .username-icon {
+        font-size: 1.875rem;
+        margin-left: 5%;
+        &:hover {
+            color: $btnHoverGreen;
+        }
+    }
+    
+    #freeWebsite {
+        background-color: $btnYellow;
+        color: $black;
+        &:hover {
+            background-color: $btnHoverYellow;
+        }
+    }
+    
+    #getCertified {
+        background-color: $btnPink;
+        color: $black;
+        &:hover {
+            background-color: $btnHoverPink;
+        }
+    }
+    
+    #pro {
+        background-color: $white;
+        color: $black;
+        &:hover {
+            background-color: #616161;
+        }
+    }
+    
 }
+
+.hidden-navbar-menu {
+    display: none;
+}
+
+
+
+
+
+
+
 
 /********************ID Selectors********************/
 
-#pro {
-    background-color: $white;
-    color: $black;
-    &:hover {
-        background-color: #616161;
-    }
-}
 
-#getCertified {
-    background-color: $btnPink;
-    color: $black;
-    &:hover {
-        background-color: $btnHoverPink;
-    }
-}
 
-#freeWebsite {
-    background-color: $btnYellow;
-    color: $black;
-    &:hover {
-        background-color: $btnHoverYellow;
-    }
-}
+
 
 @media screen and (max-width: $extra-largeScreen-max-width) {
-
-    .main-page-navbar {
-        justify-content: space-between;
-    }
-
-    .three-pack-logo {
+    #video {
         display: none;
     }
+    
+    #pro {
+        display: none;
+    }
+}
 
-    .username-icon {
+@media screen and (max-width: $largeScreen-max-width) {
+    
+    #getCertified {
+        display: none;
+    }
+    #freeWebsite {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: $smallScreen-max-width) {
+    
+    .main-page-navbar {
+        
+        .navbar-menu-choice {
+            display: none;
+        }
+        .hidden-navbar-menu-choice {
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            height: 4.68rem;
+            padding: 0 20px;
+        }
+    }
+    
+    .hidden-navbar-menu {
+        height: 520px;
+        background-color: grey;
+        position: absolute;
+        display: flex;
+        top: 74px;
+        width: 100%;
         
     }
+    
 }
 
-@media screen and (max-width: $largeScreen-max-width:) {
-    .three-pack-logo {
 
-    }
-}
+
