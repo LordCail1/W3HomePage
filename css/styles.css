@@ -176,10 +176,6 @@ button {
   background-color: #616161;
 }
 
-.hidden-navbar-menu {
-  display: none;
-}
-
 /********************ID Selectors********************/
 @media screen and (max-width: 1200px) {
   #video {
@@ -208,25 +204,30 @@ button {
     height: 4.68rem;
     padding: 0 20px;
   }
-  .hidden-navbar-menu {
-    background-color: rgb(56, 68, 77);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: absolute;
-    top: 74px;
-    width: 100%;
-    font-weight: 600;
-  }
-  .hidden-navbar-menu .hidden-menu-anchor {
-    font-size: 1.375rem;
-    text-align: center;
-    padding: 23px 0;
-  }
-  .hidden-navbar-menu .hidden-menu-anchor:hover {
-    background-color: rgb(79, 93, 103);
-  }
 }
+.hidden-navbar-menu-invisible {
+  display: none;
+}
+
+.hidden-navbar-menu-visible {
+  background-color: rgb(56, 68, 77);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 74px;
+  width: 100%;
+  font-weight: 600;
+}
+.hidden-navbar-menu-visible .hidden-menu-anchor {
+  font-size: 1.375rem;
+  text-align: center;
+  padding: 23px 0;
+}
+.hidden-navbar-menu-visible .hidden-menu-anchor:hover {
+  background-color: rgb(79, 93, 103);
+}
+
 .presentation-section {
   align-items: center;
   background-color: rgb(13, 23, 33);
