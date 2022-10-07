@@ -3,15 +3,17 @@ $black: black;
 $white: rgb(255, 255, 255);
 
 /*button Colors*/
+$btnBlack: rgb(40,42,53);
 $btnGreen: rgb(4, 170, 109);
 $btnPink: rgb(255, 192, 199);
 $btnYellow: rgb(255, 244, 163);
-$btnBlack: rgb(40,42,53);
+$btwnWhite: rgb(255,255,255);
 
 /*Hover Colors*/
 $btnHoverBlack: #000;
 $btnHoverGreen: rgb(5, 152, 98);
 $btnHoverPink: rgb(255, 179, 187);
+$btnHoverWhite: rgba(231, 233, 235, 1);
 $btnHoverYellow: rgb(255, 240, 128);
 
 /*buttons*/
@@ -32,7 +34,11 @@ $mobile-max-width: 320px;
 
 @mixin presentationButton($background-color, $color) {
     background-color: $background-color;
+    border-radius: $btnRadius;
     color: $color;
+    font-size: $btnFontsize;
+    font-weight: $thickWeight;
+    padding: $btnPadding;
 }
 
 @mixin generalButtonShape {

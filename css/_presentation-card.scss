@@ -1,19 +1,38 @@
-.html-language {
-    background-color: rgb(217,238,225);
-}
 
 .css-language {
     background-color: rgb(255,244,163);
 }
 
+.empty {
+    height: 296px;
+}
+
+.html-language {
+    background-color: rgb(217,238,225);
+}
+
 .javascript-language {
     background-color: rgb(13,23,33);
+   
     h1 {
         color: white;
     }
+
     p {
         color: white;
     }
+}
+
+.python-language {
+    background-color: rgb(243,236,234);
+}
+
+
+.sql-language {
+    background-color: rgb(150,212,212);
+
+
+
 }
 
 .presentation-card {

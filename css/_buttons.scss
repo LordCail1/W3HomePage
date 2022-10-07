@@ -11,10 +11,6 @@ button {
 .green-button {
     @include generalButtonShape;
     @include presentationButton($btnGreen, $white);
-    border-radius: $btnRadius;
-    font-size: $btnFontsize;
-    font-weight: $thickWeight;
-    padding: $btnPadding;
     &:hover {
         background-color: $btnHoverGreen;
     }
@@ -23,10 +19,6 @@ button {
 .yellow-button {
     @include generalButtonShape;
     @include presentationButton($btnYellow, $black);
-    border-radius: $btnRadius;
-    font-size: $btnFontsize;
-    font-weight: $thickWeight;
-    padding: $btnPadding;
     &:hover {
         background-color: $btnHoverYellow;
     }
@@ -35,10 +27,6 @@ button {
 .black-button {
     @include generalButtonShape;
     @include presentationButton($btnBlack, $white);
-    border-radius: $btnRadius;
-    font-size: $btnFontsize;
-    font-weight: $thickWeight;
-    padding: $btnPadding;
     &:hover {
         background-color: $btnHoverBlack;
     }
@@ -47,11 +35,15 @@ button {
 .pink-button {
     @include generalButtonShape;
     @include presentationButton($btnPink, $black);
-    border-radius: $btnRadius;
-    font-size: $btnFontsize;
-    font-weight: $thickWeight;
-    padding: $btnPadding;
     &:hover {
         background-color: $btnHoverPink;
+    }
+}
+
+.white-button {
+    @include generalButtonShape;
+    @include presentationButton($btwnWhite, $black);
+    &:hover {
+        background-color: $btnHoverWhite;
     }
 }
